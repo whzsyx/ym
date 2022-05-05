@@ -701,9 +701,8 @@ class _0x9d8dda {
 
     async ['ksNeoAdReward'](_0x3266aa, _0x371a4c, _0x3b68fe) {
         let _0x3f784e = new Date()['getTime'](),
-            _0x1b95dd = Math['floor'](Math['random']() * 30000) + 45000,
-            _0x4c41ee = _0x3f784e - _0x1b95dd,
-            _0x3a97f5 = 'https://api.e.kuaishou.com/rest/r/ad/task/report',
+            _0x4c41ee = _0x3f784e - 350000,
+            _0x3a97f5 = `https://api.e.kuaishou.com/rest/r/ad/task/report?did=${_0x3f784e}`,
             _0x1cf324 =
                 'bizStr={"businessId":' +
                 _0x3b68fe['businessId'] +
